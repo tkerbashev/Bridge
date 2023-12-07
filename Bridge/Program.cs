@@ -1,8 +1,7 @@
 ﻿using Bridge;
 
 Console.Title = "Bridge";
-Console.WriteLine( "Bridge Structural Design Pattern example" );
-Console.WriteLine();
+Console.WriteLine( "Bridge Structural Design Pattern example\n" );
 
 var leftHanded = new LeftHanded();
 var rightHanded = new RightHanded();
